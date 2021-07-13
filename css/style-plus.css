@@ -1,0 +1,189 @@
+* {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/*------START BODY-----*/
+
+body {
+    background-color: white;
+    height: 100vh;
+}
+
+.desc {
+    background-color: #1CD1B0;
+    font-size: 14px;
+    padding-left: 45px;
+    text-align: left;
+}
+
+.home {
+    height: 53px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #00669F;
+    font-size: 28px;
+    height: 10vh;
+    color: #F3F3F3;
+    padding-left: 30px;
+}
+
+.img-home:hover {
+    background-color: #00669F;
+}
+
+.img-home:link {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #001D2D;
+}
+
+li {
+    padding: 5px 15px;
+}
+
+a {
+    color: white;
+}
+
+.fa-plus-circle {
+    position: fixed;
+    font-size: 40px;
+    color: #00669F;
+    right: 20px;
+    top: 300px;
+}
+
+/*########--- INCIO DE MAIN ---######## */
+
+main {
+    height: 72vh;
+}
+
+#general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%px;
+    height: 100%;
+    padding-bottom: 0px;
+}
+
+.contenedor {
+    width: 600px;
+    border-radius: 18PX;
+    background-color: #00669F;
+}
+
+h1 {
+    font-size: 25px;
+    padding-bottom: 3px;
+}
+
+h1, h4 {
+    color: white;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+    font-size: 12px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+input, textarea {
+    border-radius: 10PX;
+}
+
+.separar {
+    padding: 10px;
+}
+
+div {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+button {
+    background-color: #1CD1B0;
+    border-radius: 6px;
+    border-style: none;
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+}
+
+a:link, button:link {
+    text-decoration: none;
+}
+
+a:hover, button:hover {
+    background-color: #001D2D;
+    color: rgb(226, 251, 0);
+}
+
+a:visited, button:visited {
+    text-decoration: none;
+}
+
+/*########--- FINAL DE MAIN ---######## */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #00669F;
+    padding: 0% 30px 0px 10px;
+    height: 60px;
+}
+
+.t-pie {
+    font-size: 18px;
+    color: white;
+}
+
+.git {
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    right: 80px;
+}
+
+@media (max-width:480px) {
+    .t-pie {
+        font-size: 9px;
+    }
+    .git {
+        position: absolute;
+        width: 70px;
+        height: 20px;
+        right: 20px;
+    }
+}
+
+@media (max-width:653px) {
+    .t-pie {
+        font-size: 12px;
+    }
+}

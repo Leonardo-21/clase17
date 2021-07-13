@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style-plus.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="desc">20% de descuento en todos los productos!</div>
+      <div class="card">
+        <a class="img-home" href="index.html"
+          ><img class="home" src="img/tienda.svg" alt="Home"
+        /></a>
+        Card Super Heroes
+      </div>
+      <nav>
+        <ul>
+          <li><a href="Contacto.html">Contacto</a></li>
+          <li><a href="Registrarme.html">Registrarme</a></li>
+          <li><a href="Ingresar.html">Ingresar</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="general">
+        <section class="contenedor">
+          <h1>Añadí tu super!</h1>
+          <h4>Agregá tu personaje favorito completando las opciones.</h4>
+          <form action="">
+            <article>
+              <label class="separar" for="usuario">*Nombre</label>
+              <input
+                class="usuario"
+                type="text"
+                id="usuario"
+                name="usuario"
+                placeholder="  Usuario"
+                required
+              />
+              <label class="separar" for="fecha">Fecha</label>
+              <input type="date" name="fecha" required />
+
+              <label class="separar" for="comentario"></label>
+              <textarea
+                id="comentario"
+                name="comentario"
+                cols="16"
+                rows="8"
+                required
+              ></textarea>
+            </article>
+            <article>
+              <label class="separar" for="Especie">*Especie</label>
+              <select class="select" name="Especie" id="">
+                <option class="pais" value="">Super</option>
+                <option>Super-humano</option>
+                <option>Humano</option>
+                <option>Semi-super</option>
+              </select>
+              <label class="separar" for="comentario">Agregar Foto</label>
+              <input type="file" name="imagen" accept=".jpg, .png" required />
+              <label class="separar" for="poderes">Poderes</label>
+              <label for="">
+                <input type="checkbox" name="poderes" />
+                Volar
+              </label>
+              <label for="">
+                <input type="checkbox" name="poderes" />
+                SuperInteligencia
+              </label>
+              <label for="">
+                <input type="checkbox" name="poderes" />
+                Vista de rayo láser
+              </label>
+              <label for="">
+                <input type="checkbox" name="poderes" />
+                Billetera gorda
+              </label>
+
+              <label class="separar" for="tipo">Tipo de Heroes</label>
+              <label for="tipo">
+                <input type="radio" name="tipo" />
+                Vista de rayo láser
+              </label>
+              <label for="tipo">
+                <input type="radio" name="tipo" />
+                Billetera gorda
+              </label>
+            </article>
+          </form>
+          <div>
+            <button>Añadir</button>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <p class="t-pie">Todos los derechos reservados a FRONT END 1</p>
+      <img class="git" src="img/git.png" alt="git" />
+    </footer>
+  </body>
+</html>
+
+<!-- 
+ <section>
+        <h1>Añadí tu super!</h1>
+        <h5>Agregá tu personaje favorito completando las opciones.</h5>
+        <form action=""></form>
+        <article>
+          <label for="usuario"></label>
+          <input
+            class="usuario"
+            type="text"
+            id="usuario"
+            name="usuario"
+            placeholder="  Usuario"
+            required
+          />
+          <select class="select" name="nacionalidad" id="">
+            <option class="pais" value="">País</option>
+            <option>Argentina</option>
+            <option>Colombia</option>
+            <option>Brasil</option>
+          </select>
+        </article>
+        <article>
+          <input type="date" name="fecha" required />
+          <input type="file" name="imagen" accept=".jpg, .png" required />
+        </article>
+        <article class="ubica">
+          <label for="comentario"></label>
+          <textarea
+            id="comentario"
+            name="comentario"
+            cols="20"
+            rows="10"
+            
+            required
+          ></textarea>
+          <article class="lista" >    
+          <fieldset>
+                <legend> <span>Poderes</span></legend>
+                <label for="">
+                  <input type="checkbox" name="poderes" />
+                  Volar
+                </label>
+                <label for="">
+                  <input type="checkbox" name="poderes" />
+                  SuperInteligencia
+                </label>
+                <label for="">
+                  <input type="checkbox" name="poderes" />
+                  Vista de rayo láser
+                </label>
+                <label for="">
+                  <input type="checkbox" name="poderes" />
+                  Billetera gorda
+                </label>
+              </fieldset>
+            
+              <fieldset>
+                <legend>Tipo de personaje</legend>
+                <label for="">
+                  <input type="radio" name="tipo" />
+                  Vista de rayo láser
+                </label>
+                <label for="">
+                  <input type="radio" name="tipo" />
+                  Billetera gorda
+                </label>
+              </fieldset>
+            </article>
+            </article>
+
+ -->
